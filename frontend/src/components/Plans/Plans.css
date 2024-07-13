@@ -1,0 +1,88 @@
+.plans-container {
+    margin-top: 4rem;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 4rem;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    background: gray;
+    color: white;
+    padding: 1.5rem;
+    gap: 2rem;
+    width: 17rem;
+}
+
+.plan:nth-child(2) {
+    background: linear-gradient(to top right, rgb(220, 150, 8), rgb(223, 97, 0), rgb(215, 86, 0));
+    scale: 1.1;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.plan>svg {
+    fill: orange;
+    width: 2rem;
+    height: 2rem;
+}
+
+.plan>img {
+    width: 1.5rem;
+}
+
+.plan>span:nth-child(2) {
+    font-weight: bold;
+}
+
+.plan>span:nth-child(3) {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.plan>div>div>img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.plan:nth-child(2)>svg {
+    fill: white;
+}
+
+.plans>:nth-child(2)>button {
+    color: orange;
+}
+
+.blur-pr {
+    width: 32rem;
+    height: 23rem;
+    right: 0rem;
+}
+
+.blur-pl {
+    width: 32rem;
+    height: 23rem;
+    left: 0rem;
+}

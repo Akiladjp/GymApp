@@ -42,7 +42,7 @@ body {
 
 .the-best-ad>div {
     position: absolute;
-    background-color: orange;
+    background-color: rgb(255, 157, 0);
     width: 5rem;
     height: 80%;
     left: 8px;
@@ -188,4 +188,10 @@ body {
 .calories> div >:nth-of-type(2) {
     color: white;
     font-size: 15px;
+}
+
+.blur-h {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
 }
