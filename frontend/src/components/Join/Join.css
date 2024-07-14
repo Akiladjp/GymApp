@@ -64,6 +64,6 @@
         flex-direction: column;
     }
     .right-j {
-        padding: 2rem;
+        margin: auto;
     }
 }

@@ -12,12 +12,7 @@ export const Header = () => {
     <div className="header">
       <img src={Logo} alt="" />
       {menuOpened === false && mobile === true ? (
-        <div
-          style={{
-            backgroundColor: "rgb(43, 43, 43)",
-            padding: "1.5rem",
-            borderRadius: "5px",
-          }}
+        <div style={{marginRight: '3rem'}}
           onClick={() => setMenuOpened(true)}
         >
           {" "}

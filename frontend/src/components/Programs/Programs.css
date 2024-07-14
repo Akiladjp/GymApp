@@ -79,5 +79,6 @@
 
     .program-categories {
         flex-direction: column;
+        margin-left: -3rem;
     }
 }
