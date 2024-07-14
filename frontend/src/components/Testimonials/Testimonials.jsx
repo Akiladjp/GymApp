@@ -11,7 +11,7 @@ export const Testimonials = () => {
   const tLength = testimonialsData.length;
 
   return (
-    <div className="Testimonials">
+    <div className="Testimonials" id="testimonials">
       <div className="left-t">
         <span style={{ color: "orange" }}>Testimonials</span>
         <span className="stroke-text">WHAT THEY</span>
